@@ -1,5 +1,6 @@
 python-dotenv
 neo4j
+neo4j-viz
 neo4j-graphrag[openai]
 jupyter
 langgraph
