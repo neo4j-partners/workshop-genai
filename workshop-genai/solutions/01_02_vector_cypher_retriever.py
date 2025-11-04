@@ -18,7 +18,7 @@ driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 
 # --- Initialize LLM and Embedder ---
 llm = OllamaLLM(
-    model_name='gpt-oss:20b',
+    model_name='gpt-oss:120b-cloud',
     model_params={"options": {"temperature": 0}},
     host="http://localhost:11434"  # Default Ollama server
 )
